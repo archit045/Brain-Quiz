@@ -1,0 +1,18 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to Brain Quiz..</h1>
+    <p class="col-md-8 fs-4">This Quiz Will Contain Total 9 Questions Each Questions Hold 10 Points</p>
+    <h4>Ruels Of The Quiz : 
+        <ol>
+            <li>Corret Question gives you 10 Points</li>
+            <li>In-Corret Question gives you -10 Points</li>
+            <li>You Have 10 Second to Answer Each Question</li>
+            <li>Refreshing The Page Will Reset the Quiz</li>
+            <h1 style="font-family: cursive; text-align: center;">All The Best!!</h1>
+            <div class="name col-md-4 my-3">
+                <label for="">Enter Your Name:</label>
+                <input #name type="text" class="form-control">
+            </div>
+            <button (click)=" startQuiz()" class="btn btn-primary btn-lg" routerLink="/question">Start The Quiz!!</button>
+        </ol>
+    </h4>
+</div>
